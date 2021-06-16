@@ -1,0 +1,45 @@
+.dataTable {
+  height: 100%;
+  width: 95%;
+}
+
+.operationButtons {
+  button {
+    border: none;
+    outline: none;
+    padding: 6px 4px;
+    border-radius: 5px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    color: #fefefe;
+  }
+
+  .opEdit {
+    background-color: #03989e;
+  }
+
+  .opOr {
+    background-color: #82e0aa;
+    margin-left: 4px;
+    margin-right: 2px;
+  }
+
+  .opCity {
+    background-color: #85929e;
+    margin-left: 2px;
+    margin-right: 4px;
+  }
+
+  .opStat {
+    background-color: #e74c3c;
+  }
+}
+
+.vehicleListLoader {
+  display: flex;
+  height: 92%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}

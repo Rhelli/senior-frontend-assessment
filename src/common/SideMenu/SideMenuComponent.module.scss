@@ -1,0 +1,138 @@
+.sideMenuContainer {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100%;
+  width: 100%;
+  background-color: #03989e;
+  color: #fefefe;
+  padding: 20px 14px;
+
+  div {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  h3 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .tracBrand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0 20px 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #42b2b6;
+
+    svg {
+      font-size: 30px;
+    }
+
+    h1 {
+      font-size: 28px;
+      padding-left: 10px;
+      margin-bottom: 0;
+    }
+  }
+
+  .kpiSection {
+    width: 100%;
+    padding: 28px 0;
+    border-bottom: 1px solid #42b2b6;
+    margin-bottom: 10px;
+
+    svg,
+    h3 {
+      font-size: 18px;
+    }
+
+    h3 {
+      padding-left: 10px;
+    }
+  }
+
+  .taskManagementSection,
+  .operationCenterSection {
+    width: 100%;
+    flex-flow: column nowrap;
+
+    h3 {
+      color: #a1d8db;
+    }
+
+    a {
+      width: 100%;
+      display: flex;
+      flex-flow: row nowrap;
+    }
+  }
+
+  .taskManagementSection {
+    padding: 20px 0 10px 0;
+    border-bottom: 1px solid #42b2b6;
+
+    h3 {
+      margin-bottom: 20px;
+    }
+
+    a {
+      color: #fefefe;
+      text-decoration: none;
+      margin: 15px 0;
+
+      p {
+        padding-left: 10px;
+      }
+
+      .taskCreationChevron {
+        margin-left: auto;
+      }
+    }
+  }
+
+  .operationCenterSection {
+    h3 {
+      padding: 20px 0;
+    }
+
+    .operationMenuContainer {
+      display: flex;
+      flex-flow: column nowrap;
+
+      .operationButtonContainer {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 20px;
+
+        button {
+          background-color: transparent;
+          border: none;
+          outline: none;
+          font-size: 18px;
+          color: #fefefe;
+          margin-right: auto;
+        }
+      }
+
+      .operationMenuDropdown {
+        display: flex;
+        flex-flow: column nowrap;
+        background-color: #fefefe;
+        padding: 20px;
+        position: relative;
+        top: 4px;
+        border-radius: 8px;
+
+        a {
+          text-decoration: none;
+          color: #101010;
+          padding: 14px;
+        }
+      }
+    }
+  }
+}

@@ -1,1 +1,1 @@
-# senior-frontend-assessment
+# Senior-FrontEnd-Assessment

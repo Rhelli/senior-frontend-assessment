@@ -1,0 +1,307 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`It matches the previous working version of the table component Matches the previous snapshot of the Vehicle Table Component 1`] = `
+<div
+  className="dataTables_wrapper dt-bootstrap4 dataTable"
+  data-test="datatable"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-sm-12 col-md-6"
+      data-test="datatable-entries"
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "justifyContent": false,
+        }
+      }
+    >
+      <div
+        className="dataTables_length bs-select"
+        data-test="datatable-select"
+      >
+        <label>
+          Show entries
+          <select
+            className="custom-select custom-select-sm form-control form-control-sm"
+            onChange={[Function]}
+            style={
+              Object {
+                "marginLeft": ".5rem",
+              }
+            }
+            value={10}
+          >
+            <option
+              value={10}
+            >
+              10
+            </option>
+            <option
+              value={20}
+            >
+              20
+            </option>
+            <option
+              value={50}
+            >
+              50
+            </option>
+            <option
+              value={100}
+            >
+              100
+            </option>
+          </select>
+        </label>
+      </div>
+    </div>
+    <div
+      className="col-sm-12 col-md-6"
+      data-test="datatable-search"
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "justifyContent": "flex-end",
+        }
+      }
+    >
+      <div
+        className="mdb-datatable-filter flex-row"
+        data-test="datatable-input"
+      >
+        <input
+          aria-label="Search"
+          className="form-control form-control-sm ml-0 my-1"
+          onChange={[Function]}
+          placeholder="Search"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-sm-12"
+      data-test="datatable-table"
+    >
+      <div
+        className="table-responsive"
+        data-test="table"
+        style={
+          Object {
+            "maxHeight": undefined,
+          }
+        }
+      >
+        <table
+          className="table table-bordered table-sm table-striped dataTable"
+          entries={10}
+        >
+          <thead
+            data-test="datatable-head"
+          >
+            <tr>
+              <th
+                className="sorting"
+                onClick={[Function]}
+              >
+                VehicleID
+              </th>
+              <th
+                className="sorting"
+                onClick={[Function]}
+              >
+                QR Code
+              </th>
+              <th
+                className="sorting"
+                onClick={[Function]}
+              >
+                Status
+              </th>
+              <th
+                className="sorting"
+                onClick={[Function]}
+              >
+                Location
+              </th>
+              <th
+                className="sorting"
+                onClick={[Function]}
+              >
+                Battery Level
+              </th>
+              <th
+                className="sorting"
+                onClick={[Function]}
+              >
+                Operation
+              </th>
+            </tr>
+          </thead>
+          <tbody
+            data-test="table-body"
+          >
+            <tr>
+              <td>
+                RTyclaTkpV
+              </td>
+              <td>
+                KNaWwUOWdve
+              </td>
+              <td>
+                Maintenance Pending
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                55%
+              </td>
+              <td>
+                <div
+                  className="operationButtons"
+                >
+                  <button
+                    className="opEdit"
+                    type="button"
+                  >
+                    Edit
+                  </button>
+                  <button
+                    className="opOr"
+                    type="button"
+                  >
+                    Order
+                  </button>
+                  <button
+                    className="opCity"
+                    type="button"
+                  >
+                    Change City/Region
+                  </button>
+                  <button
+                    className="opStat"
+                    type="button"
+                  >
+                    Change Status
+                  </button>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+          <thead
+            data-test="table-foot"
+          >
+            <tr>
+              <th>
+                VehicleID
+              </th>
+              <th>
+                QR Code
+              </th>
+              <th>
+                Status
+              </th>
+              <th>
+                Location
+              </th>
+              <th>
+                Battery Level
+              </th>
+              <th>
+                Operation
+              </th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-sm-12 col-md-5"
+      data-test="datatable-info"
+    >
+      <div
+        aria-live="polite"
+        className="dataTables_info"
+        role="status"
+      >
+        Showing 1 to 1 of 1 entries
+      </div>
+    </div>
+    <div
+      className="col-sm-12 col-md-7"
+      data-test="datatable-pagination"
+    >
+      <div
+        className="dataTables_paginate"
+      >
+        <ul
+          className="pagination"
+          data-test="pagination"
+        >
+          <li
+            className="disabled page-item"
+            data-test="page-item"
+          >
+            <a
+              aria-label="Previous"
+              className="page-link page-link"
+              data-test="page-link"
+              onClick={[Function]}
+            >
+              <span>
+                Previous
+              </span>
+            </a>
+          </li>
+          <li
+            className="active page-item"
+            data-test="page-item"
+          >
+            <a
+              className="page-link page-link"
+              data-test="page-link"
+              onClick={[Function]}
+            >
+              1
+              <span
+                className="sr-only"
+              >
+                (current)
+              </span>
+            </a>
+          </li>
+          <li
+            className="disabled page-item"
+            data-test="page-item"
+          >
+            <a
+              aria-label="Next"
+              className="page-link page-link"
+              data-test="page-link"
+              onClick={[Function]}
+            >
+              <span>
+                Next
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;
